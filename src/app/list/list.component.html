@@ -1,0 +1,7 @@
+<header>Historię którego nosnika chcesz zobaczyć?</header>
+
+<section>
+  <div class="troll" *ngFor="let element of dysk" routerLink="disc/{{element.id}}">
+    <img src="./../assets/{{element.name | lowercase}}.png"/>
+  </div>
+</section>

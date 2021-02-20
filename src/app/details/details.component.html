@@ -1,0 +1,10 @@
+<section>
+  <img src="./../assets/{{disc.name | lowercase}}.png">
+  <div>
+    <h1>{{disc.name}} ({{disc.year_of_inventing}})</h1>
+
+    <p>{{disc.description}}</p>
+    <h4>Przeznaczenie: {{disc.purpose | uppercase}}</h4>
+    <button (click)="backLocation()">Back!</button>
+  </div>
+</section>

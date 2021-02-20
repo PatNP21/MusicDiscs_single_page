@@ -1,0 +1,39 @@
+section {
+  margin-left:8vw !important;
+  margin-top: 3vh;
+  font-family: 'Raleway', sans-serif;
+  color:#02023b;
+}
+
+img {
+  float:left;
+  margin-left:3vh;
+  margin-right:3vh;
+  margin-top:1vh;
+  border-radius: 5px;
+  width:20vw;
+  height:35vh;
+}
+
+h4 {
+  color:crimson;
+}
+
+div {
+  height:16vh;
+  line-height: 5vh;
+  float:left;
+}
+
+button {
+  border:none;
+  background-color: slateblue;
+  height:6vh;
+  width:10vh;
+  text-align: center;
+  color:#efefef;
+  font-family: 'Raleway', sans-serif;
+  font-weight:300;
+  font-size:2vh;
+  border-radius: 7px;
+}
